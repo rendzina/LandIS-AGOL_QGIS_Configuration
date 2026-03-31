@@ -47,13 +47,15 @@ The modify Connection dialogue appears. You will now add your account authentica
 
 <img src="images/06_CreateNewAuthenticationConfiguration.png" alt="Create new authentication configuration" width="560">
 
-In the resulting connection dialogue, first give the configuration a name - here we used 'Portal'. Then, in the drop down box below, select 'OAuth2 authentication'. You will now load in the connection file from this page.
+In the resulting connection dialogue, first give the configuration a name - here we used 'Portal'. 
+
+<img src="images/08_SelectOAuthDropdown.png" alt="OAuth2 authentication selected" width="520">
+
+Then, in the drop down box below, select 'OAuth2 authentication'. You will now load in the connection file from this page.
 
 <img src="images/07_ConnectionName.jpg" alt="Connection name and OAuth2 settings" width="480">
 
-Select the 'Inport configuration' button, and navigate to and select the [`qgis_OAuth2_config.json`](qgis_OAuth2_config.json) file. Without any further edits, select 'Save', the 'OK' to close the 'Modify ArcGIS REST Server Connection' dialogue.
-
-<img src="images/08_SelectOAuthDropdown.png" alt="OAuth2 authentication selected" width="520">
+Select the 'Import configuration' button, and navigate to and select the [`qgis_OAuth2_config.json`](qgis_OAuth2_config.json) file. Without any further edits, select 'Save', the 'OK' to close the 'Modify ArcGIS REST Server Connection' dialogue.
 
 As you do this, you will be directed to the 'Request for Permission' dialogue on the Soil Portal. Select 'Allow' and then Log in with your usual account details.
 
