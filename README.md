@@ -25,51 +25,51 @@ Next, download the two files attached here to your local computer.
 
 Open QGIS, in the lefthand content browser panel, select the final option 'ArcGIS REST Servers'.
 
-![QGIS content browser with ArcGIS REST Servers selected](images/01_ContentBrowser.png)
+<img src="images/01_ContentBrowser.png" alt="QGIS content browser with ArcGIS REST Servers selected" width="720">
 
 Right mouse click this and select 'Load Connections...'. Navigate to and select the file 'open_soil_REST.xml'.
 
-![Load connections — ArcGIS REST service](images/02_ModifyArcGISRESTService.png)
+<img src="images/02_ModifyArcGISRESTService.png" alt="Load connections — ArcGIS REST service" width="560">
 
 In the box that appears, click on it to select the option 'LandIS' and then 'Import'.
 
-![Select LandIS connection to import](images/03_Select_connection.jpg)
+<img src="images/03_Select_connection.jpg" alt="Select LandIS connection to import" width="480">
 
 Now, back in the left hand panel, double click on the final 'ArcGIS REST Servers' option and the 'LandIS' connection should appear.
 
-![LandIS connection in the browser](images/04_LandIS_Connection.jpg)
+<img src="images/04_LandIS_Connection.jpg" alt="LandIS connection in the browser" width="480">
 
 Right mouse click on the LandIS connection and select 'Edit Connection...'
 
-![Edit LandIS connection](images/05_LandIS_Connection_Edit.jpg)
+<img src="images/05_LandIS_Connection_Edit.jpg" alt="Edit LandIS connection" width="480">
 
 The modify Connection dialogue appears. You will now add your account authentication. Select the green '+' button at the bottom in the Authentication section.
 
-![Create new authentication configuration](images/06_CreateNewAuthenticationConfiguration.png)
+<img src="images/06_CreateNewAuthenticationConfiguration.png" alt="Create new authentication configuration" width="560">
 
 In the resulting connection dialogue, first give the configuration a name - here we used 'Portal'. Then, in the drop down box below, select 'OAuth2 authentication'. You will now load in the connection file from this page.
 
-![Connection name and OAuth2 settings](images/07_ConnectionName.jpg)
+<img src="images/07_ConnectionName.jpg" alt="Connection name and OAuth2 settings" width="480">
 
 Select the 'Inport configuration' button, and navigate to and select the 'qgis_OAuth_config.json' file. Without any further edits, select 'Save', the 'OK' to close the 'Modify ArcGIS REST Server Connection' dialogue.
 
-![OAuth2 authentication selected](images/08_SelectOAuthDropdown.png)
+<img src="images/08_SelectOAuthDropdown.png" alt="OAuth2 authentication selected" width="520">
 
 As you do this, you will be directed to the 'Request for Permission' dialogue on the Soil Portal. Select 'Allow' and then Log in with your usual account details.
 
-![Import OAuth configuration from file](images/09_%20ImportOAuthConfiguration.png)
+<img src="images/09_%20ImportOAuthConfiguration.png" alt="Import OAuth configuration from file" width="560">
 
 Note this will time out if you are not quick about this! If that happens, go back and select 'Refresh' on the connection to open the Portal page again.
 
-![Soil Portal — request for permission](images/10_RequestPermission.jpg)
+<img src="images/10_RequestPermission.jpg" alt="Soil Portal — request for permission" width="480">
 
 A success message should appear. Yoiu can now close the Portal and go back to QGIS.
 
-![Authentication success](images/11_Success.jpg)
+<img src="images/11_Success.jpg" alt="Authentication success" width="480">
 
 You should now see all the Soil Portal datasets listed. You can access and interact with these data in the usual way!
 
-![Soil Portal layers available in QGIS](images/12_NationalSoilMapLoaded.png)
+<img src="images/12_NationalSoilMapLoaded.png" alt="Soil Portal layers available in QGIS" width="720">
 
 Note you can select the map data, the attributes and the metadata from each feature layer.
 
