@@ -2,9 +2,11 @@
 
 These files support the **LandIS Soil Portal** project. They are **configuration files for QGIS** that allow the desktop GIS application to connect to and use the soil data and map services exposed through the portal.
 
-The portal itself is hosted on **ArcGIS Online** (AGOL). QGIS uses these service definitions access the hosted soils data content reliably from a local GIS workflow. You will be asked to authenticate yourself on the portal, for which you will need a free account as directed on the Portal.
+The portal itself is hosted on **ArcGIS Online** (AGOL). QGIS uses these service definitions access the hosted soils data content reliably from a local GIS workflow.
 
-An effective means to access the Portla data is through a REST service. THis way you can be sure you are always accessing the latest version of the data.
+You will be asked to **authenticate yourself** on the portal, for which you will need a **free account** as directed on the Portal.
+
+An effective means to access the Portal data is through a REST service. This way you can be sure you are always accessing the latest version of the data.
 
 Portal link: [https://portal.landis.org.uk](https://portal.landis.org.uk)
 
@@ -65,7 +67,7 @@ Note this will time out if you are not quick about this! If that happens, go bac
 
 <img src="images/10_RequestPermission.jpg" alt="Soil Portal — request for permission" width="480">
 
-A success message should appear. Yoiu can now close the Portal and go back to QGIS.
+A success message should appear. You can now close the Portal webpage window and go back to QGIS.
 
 <img src="images/11_Success.jpg" alt="Authentication success" width="480">
 
