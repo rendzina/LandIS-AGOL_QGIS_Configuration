@@ -57,9 +57,9 @@ Then, in the drop down box below, select 'OAuth2 authentication'. You will now l
 
 Select the 'Import configuration' button, and navigate to and select the [`qgis_OAuth2_config.json`](qgis_OAuth2_config.json) file. Without any further edits, select 'Save', the 'OK' to close the 'Modify ArcGIS REST Server Connection' dialogue.
 
-As you do this, you will be directed to the 'Request for Permission' dialogue on the Soil Portal. Select 'Allow' and then Log in with your usual account details.
-
 <img src="images/09_%20ImportOAuthConfiguration.png" alt="Import OAuth configuration from file" width="560">
+
+As you do this, you will be directed to the 'Request for Permission' dialogue on the Soil Portal. Select 'Allow' and then Log in with your usual account details.
 
 Note this will time out if you are not quick about this! If that happens, go back and select 'Refresh' on the connection to open the Portal page again.
 
