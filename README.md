@@ -12,8 +12,8 @@ Portal link: [https://portal.landis.org.uk](https://portal.landis.org.uk)
 
 | File | Purpose |
 |------|---------|
-| `open_soil_REST.xml` | QGIS browser / connection metadata for the REST endpoint. |
-| `qgis_OAuth2_config.json` | OAuth2 parameters for signing in to the ArcGIS Online organisation when QGIS requests layers or services. |
+| [`open_soil_REST.xml`](open_soil_REST.xml) | QGIS browser / connection metadata for the REST endpoint. |
+| [`qgis_OAuth2_config.json`](qgis_OAuth2_config.json) | OAuth2 parameters for signing in to the ArcGIS Online organisation when QGIS requests layers or services. |
 
 ## Instructions
 
@@ -21,13 +21,13 @@ You will already have installed a copy of the latest QGIS open source GIS packag
 
 First, ensure you have a free user account for the Portal. Be sure your computer is online on the Internet and the Soil Portal is accessible (e.g. test this by connecting to it first).
 
-Next, download the two files attached here to your local computer.
+Next, download [`open_soil_REST.xml`](open_soil_REST.xml) and [`qgis_OAuth2_config.json`](qgis_OAuth2_config.json) to your local computer (use the links here, or the **Raw** view on GitHub to save each file).
 
 Open QGIS, in the lefthand content browser panel, select the final option 'ArcGIS REST Servers'.
 
 <img src="images/01_ContentBrowser.png" alt="QGIS content browser with ArcGIS REST Servers selected" width="720">
 
-Right mouse click this and select 'Load Connections...'. Navigate to and select the file 'open_soil_REST.xml'.
+Right mouse click this and select 'Load Connections...'. Navigate to and select the file [`open_soil_REST.xml`](open_soil_REST.xml).
 
 <img src="images/02_ModifyArcGISRESTService.png" alt="Load connections — ArcGIS REST service" width="560">
 
@@ -51,7 +51,7 @@ In the resulting connection dialogue, first give the configuration a name - here
 
 <img src="images/07_ConnectionName.jpg" alt="Connection name and OAuth2 settings" width="480">
 
-Select the 'Inport configuration' button, and navigate to and select the 'qgis_OAuth_config.json' file. Without any further edits, select 'Save', the 'OK' to close the 'Modify ArcGIS REST Server Connection' dialogue.
+Select the 'Inport configuration' button, and navigate to and select the [`qgis_OAuth2_config.json`](qgis_OAuth2_config.json) file. Without any further edits, select 'Save', the 'OK' to close the 'Modify ArcGIS REST Server Connection' dialogue.
 
 <img src="images/08_SelectOAuthDropdown.png" alt="OAuth2 authentication selected" width="520">
 
