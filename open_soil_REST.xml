@@ -1,0 +1,4 @@
+<!DOCTYPE connections>
+<qgsARCGISFEATURESERVERConnections version="1.0">
+    <arcgisfeatureserver username="" password="" authcfg="" name="LandIS" url="https://services-eu1.arcgis.com/BsCa1SurMySYByZ3/arcgis/rest/services/"/>
+</qgsARCGISFEATURESERVERConnections>
