@@ -53,21 +53,23 @@ In the resulting connection dialogue, first give the configuration a name - here
 
 <img src="images/07_ConnectionName.jpg" alt="Connection name and OAuth2 settings" width="480">
 
-Then, in the drop down box below, select 'OAuth2 authentication'. You will now load in the connection file from this page.
+Then, in the drop down box below, select 'OAuth2 authentication'. Following this, the next task will be to load in the connection file you downloaded.
 
 <img src="images/08_SelectOAuthDropdown.png" alt="OAuth2 authentication selected" width="520">
 
-Select the 'Import configuration' button, and navigate to and select the [`qgis_OAuth2_config.json`](qgis_OAuth2_config.json) file. Without any further edits, select 'Save', the 'OK' to close the 'Modify ArcGIS REST Server Connection' dialogue.
+To load the connection file, select the 'Import configuration' button (this is the green 'plus' button on the right side), and then navigate to and select the [`qgis_OAuth2_config.json`](qgis_OAuth2_config.json) file. Without any further edits, select 'Save', and then 'OK' to close the 'Modify ArcGIS REST Server Connection' dialogue.
+
+Both the files downloaded from this Git page are now loaded into the QGIS configuration.
 
 <img src="images/09_%20ImportOAuthConfiguration.png" alt="Import OAuth configuration from file" width="560">
 
-As you do this, you will be directed to the 'Request for Permission' dialogue on the Soil Portal. Select 'Allow' and then Log in with your usual account details.
+When loaded, you will be directed to the Soil Portal for the 'Request for Permission' dialogue. Select 'Allow' and then Log in with your usual account details.
 
-Note this will time out if you are not quick about this! If that happens, go back and select 'Refresh' on the connection to open the Portal page again.
+Note this will ***time out*** if you are not quick about this! If that happens, go back and select 'Refresh' on the connection to open the Portal page again and start over.
 
 <img src="images/10_RequestPermission.jpg" alt="Soil Portal — request for permission" width="480">
 
-A success message should appear. You can now close the Portal webpage window and go back to QGIS.
+If it worked, a success message should appear. You can now close the Portal webpage window and go back to QGIS.
 
 <img src="images/11_Success.jpg" alt="Authentication success" width="480">
 
@@ -83,7 +85,7 @@ Tested with QGIS 4.0.0
 ## Author and date
 
 **Professor Stephen Hallett**  
-**31 March 2026**
+**2 April 2026**
 
 ## Licence
 
